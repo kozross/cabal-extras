@@ -1,2 +1,6 @@
 module Main (main) where
-import CabalDocspec.Main (main)
+
+import qualified CabalDocspec.Main as DSMain
+
+main :: IO ()
+main = DSMain.main

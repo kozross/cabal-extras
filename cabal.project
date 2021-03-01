@@ -1,4 +1,3 @@
-with-compiler: ghc-8.8.4
 tests: True
 
 packages: cabal-bundler
@@ -12,6 +11,8 @@ packages: cabal-store-check
 packages: cabal-store-gc
 
 packages: peura
+
+allow-newer: all
 
 package cabal-bundler
   ghc-options: -Wall
